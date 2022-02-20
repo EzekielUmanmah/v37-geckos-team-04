@@ -15,7 +15,7 @@ app.use(cors());
 
 app.use('/users', userRoutes);
 
-app.use('/', (req, res) => res.send('Welcome to the Sleep Tracker API.'));
+app.use('/', (req, res) => res.send('Welcome to the Sleep Tracker APIs.'));
 
 const PORT = process.env.PORT || 4000;
 
